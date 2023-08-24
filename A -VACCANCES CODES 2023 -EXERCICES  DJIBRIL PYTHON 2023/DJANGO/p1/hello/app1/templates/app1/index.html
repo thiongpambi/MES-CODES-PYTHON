@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BIENVENU DJANGO </h1>
+    <a href="/">accueil</a>
+    <a href="{% url 'about'%}">A propos</a>
+    <h2>{{ moi }}</h2>
+
+    {%for t in tab%}
+
+    <p>{{ t }}</p>
+
+    {% endfor %}
+
+</body>
+</html>
