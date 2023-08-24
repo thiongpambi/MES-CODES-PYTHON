@@ -1,4 +1,4 @@
-
+# je modifie le fichier 
 
 def bin2(n):
     r=n
